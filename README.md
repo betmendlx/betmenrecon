@@ -40,18 +40,8 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 ```
 
-## Step 3: Set Up the Script
-
-1. Create and open `betmenrecon.sh`:
-   ```
-   nano betmenrecon.sh
-   ```
-
-2. Paste the script content (provided earlier) into this file.
-
-3. Save and exit (Ctrl+X, then Y, then Enter).
-
-4. Make the script executable:
+## Step 3: make it ready 
+1. Make the script executable:
    ```
    chmod +x betmenrecon.sh
    ```
